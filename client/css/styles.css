@@ -1,0 +1,180 @@
+h2,
+h3,
+h4,
+p,
+button,
+a {
+  font-family: "Open Sans", sans-serif;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 20px;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+p {
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: #8b4513;
+  border-bottom: 1px solid #8b4513;
+  padding-bottom: 5px;
+}
+a:hover {
+  border-bottom: 2px solid #8b4513;
+  font-weight: bold;
+}
+
+button {
+  color: #8b4513;
+}
+html {
+  background-color: #ffebcd;
+}
+body {
+  border: 2px solid transparen;
+  margin: 30px;
+  background-color: #fff8dc;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.6);
+  color: #8b4513;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+header div {
+  margin-top: 100px;
+}
+.title {
+  margin-left: 100px;
+}
+
+.my-photo {
+  border-radius: 50%;
+  border: 2px solid #000;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  margin-left: 220px;
+}
+.technologies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  test-align: center;
+}
+.technologies ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.my-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-project ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin: 0 auto;
+  width: 80%;
+}
+.cloud-disk {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 40px;
+  justify-content: center;
+}
+
+.cloud-disk div {
+  flex: 1;
+  flex-basis: 50%;
+  margin: auto 20px;
+}
+.cloud-disk img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10%;
+  border: 1px solid rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+}
+.cloud-disk-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cloud-disk-info h3 {
+  margin: 0;
+  padding: 0;
+}
+.cloud-disk button {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px 20px;
+  background-color: #fff8dc;
+  border: 1px solid #8b4513;
+  transition: transform 0.3s ease;
+  margin: auto 10px;
+}
+.cloud-disk button:hover {
+  transform: scale(1.2);
+}
+.about-myself-github {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 40px;
+  justify-content: center;
+}
+.about-myself,
+.GitHub {
+  display: flex;
+  flex-direction: column;
+}
+.about-myself {
+  width: 70%;
+}
+.about-myself h3 {
+  margin-left: 25px;
+}
+.about-myself p {
+  margin: 0;
+}
+.GitHub {
+  width: 30%;
+  margin-left: 90px;
+}
+.GitHub ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+}
+.GitHub li {
+  list-style: initial;
+  margin-bottom: 10px;
+}
+footer {
+  display: flex;
+  background-color: NavajoWhite;
+  text-align: center;
+  justify-content: center;
+  height: 45px;
+  color: Grey;
+}
+footer p {
+  font-size: 14px;
+}
