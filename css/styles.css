@@ -59,7 +59,10 @@ header div {
   flex: 70%;
   margin-left: 100px;
 }
-
+.title h2 {
+  height: 20px;
+  margin-bottom: 30px;
+}
 .my-photo {
   flex: 30%;
   margin-right: 100px;
@@ -144,6 +147,14 @@ header div {
   flex-direction: row;
   margin: 50px 40px;
   justify-content: center;
+}
+p a {
+  text-decoration: none;
+  all: unset;
+}
+p a:hover {
+  all: unset;
+  border-bottom: 1px solid #8b4513;
 }
 .about-myself,
 .GitHub {
