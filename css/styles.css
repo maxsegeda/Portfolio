@@ -56,16 +56,17 @@ header div {
   margin-top: 100px;
 }
 .title {
+  flex: 70%;
   margin-left: 100px;
 }
 
 .my-photo {
+  flex: 30%;
+}
+.my-photo img {
   border-radius: 50%;
   border: 2px solid #000;
   overflow: hidden;
-  width: 250px;
-  height: 250px;
-  margin-left: 220px;
 }
 .technologies {
   display: flex;
@@ -178,3 +179,4 @@ footer {
 footer p {
   font-size: 14px;
 }
+
