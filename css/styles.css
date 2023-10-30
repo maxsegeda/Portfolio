@@ -84,7 +84,7 @@ header div {
 .technologies ul {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  margin: 20px;
 }
 .my-project {
   display: flex;
