@@ -55,16 +55,31 @@ header {
 header div {
   margin-top: 100px;
 }
+
 .title {
   flex: 70%;
   margin-left: 100px;
 }
 .title h2 {
   height: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+}
+.title h4 {
+  margin-bottom: 15px;
+}
+
+.title a {
+  color: #d2b48c;
+  font-family: initial;
+  border: none;
+  font-size: 24px;
+  font-weight: normal;
+}
+.title a:hover {
+  cursor: pointer;
 }
 .my-photo {
-  flex: 30%;
+  flex: 25%;
   margin-right: 100px;
 }
 .my-photo img {
@@ -75,23 +90,37 @@ header div {
   height: 100%;
   text-align: center;
 }
+
 .technologies {
   display: flex;
   flex-direction: column;
   align-items: center;
-  test-align: center;
 }
-.technologies ul {
+
+.tech-list {
   display: flex;
+  flex-wrap: wrap;
+  width: 50%;
   justify-content: center;
-  margin: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+}
+.tech-list li {
+  width: 60px;
+  height: 60px;
+
+  box-sizing: border-box;
+}
+.tech-list li:nth-child(-n + 8) {
+  order: -1;
 }
 .my-project {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .my-project ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
